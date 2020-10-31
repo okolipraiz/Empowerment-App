@@ -504,3 +504,137 @@ footer p{
 .social-icons li{
     list-style: none;
 }
+
+@media(max-width:1000px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .model{
+        height: 460px;
+        left: 90%;
+        transform: translateX(-170%);
+        position: absolute;
+    }
+
+    .about-container{
+        width: 90%;
+    }
+
+    .about-container img{
+        height: 200px;
+    }
+
+    .about-text{
+        width: 400px;
+        top: 29vh;
+        position: absolute;
+        right: 40px;
+       
+    }
+
+    .about-text p:nth-child(1){
+        font-size: 20px;
+    }
+    .about-text p:nth-child(2){
+        font-size: 12px;
+    }
+    .about-text p:nth-child(3){
+        font-size: 15px;
+    }
+
+    .services{
+        position: relative;
+        top: 65vh;
+    }
+
+    .services-text{
+        width: 300px;
+        position: absolute;
+        top: 20px;
+        right: 120px;
+        
+    }
+
+    .services-text p:nth-child(1){
+        font-size: 17px;
+        text-align: start;
+    }
+
+    .services-text p:nth-child(2),
+    .services-text p:nth-child(3){
+        font-size: 10px;
+        left: 29vh;
+        position: absolute;
+        line-height: 14px;
+        text-align: left;
+    }
+
+    .box-container{
+        justify-content: center;
+        flex-wrap: auto;
+        flex-direction: column;
+        position: relative;
+        top: 35vh;
+        right: 150px;
+        height: 100%;
+    }
+
+    .services{
+        height: auto;
+        padding: 2% 5% 0px 5%;
+    }
+
+    .box-1,.box-2,.box-3{
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+    .box-container2{
+        justify-content: center;
+        flex-wrap: auto;
+        flex-direction: column;
+        position: relative;
+        top: 35vh;
+        right: 150px;
+        padding-bottom: 70vh;
+    }
+
+    .box-4,.box-5,.box-6{
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+    .clients-text{
+        right: 25vh;
+        position: relative;
+    }
+
+    .clients-container{
+        justify-content: center;
+        flex-wrap: auto;
+        flex-direction: column;
+        position: relative;
+        left: -50vh;
+        padding-left: 10px;
+        right: 10px;
+    }
+    
+    
+
+    .services-text3{
+        right: 25vh;
+        position: relative;
+    }
+
+    .clients-container2{
+        justify-content: center;
+        flex-wrap: auto;
+        flex-direction: column;
+        position: relative;
+        right: 300px;
+        padding-bottom: 70vh;
+        padding-top: 10%; 
+    }
+
+}
