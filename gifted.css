@@ -397,6 +397,7 @@ section p{
     display: flex;
     background-color: #e6e6dd; 
     height: 400px;
+    width: 100%;
 }
 
 .box2{
@@ -511,7 +512,7 @@ footer p{
     }
 
     .model{
-        height: 460px;
+        height: 500px;
         left: 90%;
         transform: translateX(-170%);
         position: absolute;
@@ -522,7 +523,7 @@ footer p{
     }
 
     .about-container img{
-        height: 200px;
+        height: 210px;
     }
 
     .about-text{
@@ -576,7 +577,7 @@ footer p{
         flex-direction: column;
         position: relative;
         top: 35vh;
-        right: 150px;
+        right: 130px;
         height: 100%;
     }
 
@@ -596,7 +597,7 @@ footer p{
         flex-direction: column;
         position: relative;
         top: 35vh;
-        right: 150px;
+        right: 130px;
         padding-bottom: 70vh;
     }
 
@@ -615,18 +616,41 @@ footer p{
         flex-wrap: auto;
         flex-direction: column;
         position: relative;
-        left: -50vh;
+        left: -47vh;
         padding-left: 10px;
         right: 10px;
     }
     
-    
-
+    .contact-me3{
+        width: 100%;
+        height: 90vh;
+    }
     .services-text3{
-        right: 25vh;
-        position: relative;
+        width: 100%;
+        position: absolute;
+        top: 0vh;
+        right: 120px;
     }
 
+    .services-text3 p:nth-child(1){
+        font-size: 17px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .services-text3 p:nth-child(2),
+    .services-text3 p:nth-child(3){
+        font-size: 10px;
+        left: 18vh;
+        position: absolute;
+        line-height: 14px;
+        text-align: left;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+   
+    }
+    
     .clients-container2{
         justify-content: center;
         flex-wrap: auto;
@@ -634,7 +658,8 @@ footer p{
         position: relative;
         right: 300px;
         padding-bottom: 70vh;
-        padding-top: 10%; 
+        padding-top: 25%; 
+        top: 35vh;
     }
 
 }
